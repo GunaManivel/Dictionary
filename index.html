@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Css/Style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./dictionary_LAV_icon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4 text-center">Dictionary</h1>
+      <div class="row">
+        <div class="col-md-6 container-fluid">
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control mb-3"
+            placeholder="Enter a word"
+          />
+          <button class="btn btn-primary mr-2" onclick="searchWord()">
+            Search
+          </button>
+          <button class="btn btn-secondary" onclick="reloadPage()">
+            Refresh
+          </button>
+        </div>
+      </div>
+      <div id="result" class="mt-4"></div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom script -->
+    <script src="./Js/Script.js"></script>
+  </body>
+</html>

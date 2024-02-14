@@ -1,0 +1,32 @@
+body {
+    font-family: 'Alegreya SC', cursive;
+    background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+    /* Gradient background for the body */
+}
+
+p {
+    display: flex;
+    color: rgb(18, 18, 19);
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: x-large;
+}
+
+h6 {
+    font-size: large;
+    color: blue;
+}
+
+.card {
+    background-color: #ffffff;
+    /* White background for the card */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for the card */
+    border-radius: 10px;
+    /* Add border radius to the card */
+}
