@@ -19,8 +19,8 @@ This is a simple web application that allows users to search for word definition
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/dictionary-web-app.git`
-2. Navigate to the project directory: `cd dictionary-web-app`
+1. Clone the repository: `git clone https://github.com/GunaManivel/Dictionary.git`
+2. Navigate to the project directory: `cd Dictionary`
 3. Open `index.html` in your web browser.
 
 ## Usage
